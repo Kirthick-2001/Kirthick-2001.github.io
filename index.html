@@ -2,126 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Kirthick's Data Science Portfolio</title>
+    <title>N. Kirthick | Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Kirthick Natarajan</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h2 class="logo"><span>K</span>irthick.</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="btn-talk">Let's Talk</a>
     </header>
-    
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm Kirthick, a Data Science enthusiast with a background in MCA. I have experience in data analysis, machine learning, and project development. I love tackling complex problems and turning data into actionable insights.</p>
+
+    <section class="home">
+        <div class="content">
+            <h2>Hi, I'm <span>N. Kirthick</span></h2>
+            <h4>Data Scientist</h4>
+            <p>I am a Data Scientist with expertise in machine learning and data analysis. I have worked on projects related to Diabetic Retinopathy Detection and Heart Disease Prediction. I enjoy transforming data into actionable insights and tackling complex problems.</p>
+            <div class="btn-group">
+                <a href="#">Hire Me</a>
+                <a href="#">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kirthick-natarajan-b22189228"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/kirthick-2001"><i class="fa-brands fa-github"></i></a>
+            </div>
         </div>
     </section>
 
-    <section id="projects">
+    <section class="projects">
         <div class="container">
             <h2>My Projects</h2>
             <div class="project">
                 <h3>Heart Disease Prediction</h3>
-                <p>A machine learning model to predict the risk of heart disease using patient data.</p>
-                <a href="https://github.com/Kirthick-2001/Heart-Disease-Prediction-">View Project</a>
+                <p>A machine learning model developed to predict heart disease risk using patient data.</p>
+                <a href="#">View Project</a>
             </div>
             <div class="project">
                 <h3>Diabetic Retinopathy Detection</h3>
-                <p>A deep learning project to classify images of eyes for diabetic retinopathy.</p>
+                <p>A deep learning project aimed at detecting diabetic retinopathy from retinal images using a Vision Transformer (ViT) model.</p>
                 <a href="#">View Project</a>
             </div>
         </div>
     </section>
-
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <h3>Contact Information</h3>
-            <p>Madurai | Ph: +91 7339523255 | <a href="mailto:kirthickraja2001@gmail.com">kirthickraja2001@gmail.com</a> | <a href="https://www.linkedin.com/in/kirthick-natarajan-b22189228" target="_blank">LinkedIn</a></p>
-            
-            <h3>Objective</h3>
-            <p>To secure a challenging position in a progressive environment where I can utilize my technical and analytical skills while providing opportunities for growth. I am committed to continuous learning and thrive on tackling complex tasks.</p>
-
-            <h3>Technical Skills</h3>
-            <ul>
-                <li>Languages: Python (Basic)</li>
-                <li>Database: MySQL</li>
-                <li>Tools: MS Office (Excel), Power BI</li>
-            </ul>
-
-            <h3>Work Experience</h3>
-            <h4>SHIASH INFO SOLUTIONS (Intern), Sholinganallur, Chennai</h4>
-            <p>Data Scientist Intern (June 2024 - Current)</p>
-            <ul>
-                <li>Developed Python scripts to automate data cleaning and preprocessing tasks, reducing data preparation time.</li>
-                <li>Created a predictive model using machine learning algorithms that improved prediction accuracy.</li>
-                <li>Utilized cleaned data to create visualizations like charts and graphs.</li>
-            </ul>
-
-            <h3>University Projects</h3>
-            <h4>Design and Analysis of Diabetic Retinopathy Severity Using Transformer Model</h4>
-            <ul>
-                <li>Developed a model with Vision Transformer (VIT) to predict diabetic retinopathy severity.</li>
-                <li>Used PCA, CNN, and hybrid models for accurate early identification.</li>
-                <li>Aimed to enhance interventions and mitigate vision impairment.</li>
-            </ul>
-            <h4>Enhancing Heart Disease Prediction Accuracy Through Machine Learning Techniques</h4>
-            <ul>
-                <li>Enhanced prediction accuracy using machine learning and optimization techniques.</li>
-                <li>Conducted data preprocessing, feature selection, and applied lazy classifiers for evaluation.</li>
-                <li>Utilized two databases, achieving improvements in accuracy, F1 score, and ROC analysis.</li>
-            </ul>
-
-            <h3>Education</h3>
-            <h4>SASTRA DEEMED UNIVERSITY, Thanjavur</h4>
-            <p>Master of Computer Application (Sep 2022 – May 2024), CGPA: 7.56/10.0</p>
-            <h4>SOURASHTRA COLLEGE, Madurai</h4>
-            <p>Bachelor of Commerce With Computer Applications (Jun 2019 – May 2022), CGPA: 7.1/10.0</p>
-
-            <h3>Certifications</h3>
-            <ul>
-                <li>Data Visualization With Power BI - Great Learning</li>
-                <li>Python for Data Analysis - Great Learning</li>
-            </ul>
-
-            <h3>Additional</h3>
-            <p>Languages: Fluent in Tamil and English.</p>
-            <p>Areas of Interest: Data Science, Data Analysis.</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contactForm">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Kirthick N. | 
-            <a href="https://github.com/your-github-username" target="_blank">GitHub</a> | 
-            <a href="https://www.linkedin.com/in/kirthick-natarajan-b22189228" target="_blank">LinkedIn</a>
-            </p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
+
